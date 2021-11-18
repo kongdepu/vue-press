@@ -42,6 +42,9 @@ module.exports = {
       clientId: '17c922fc0f7d550a4811',
       clientSecret: '0c47b996598eb76af958484968ee9295656d427a',
     },
+    '@vuepress/back-to-top':{
+
+    }
 
   },
   markdown: {
@@ -71,6 +74,7 @@ module.exports = {
       '/start/': [
         '',
         'ES6',
+        'quanxue',
       ]
     }
     // displayAllHeaders: true // 默认值：false
