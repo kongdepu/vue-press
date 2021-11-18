@@ -22,24 +22,28 @@ module.exports = {
     ['meta', { name: 'msapplication-TileImage', content: '/icons/icons-144x144.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
-  plugins: [
-    [
-      '@vuepress/last-updated',
-      {
-        transformer: (timestamp) => {
-          return moment(timestamp).format("LLLL")
-        }
-      },
-    ],
-    ['@vuepress/pwa',{
+  plugins: {
+    '@vuepress/last-updated': {
+      transformer: (timestamp) => moment(timestamp).format("LLLL")
+    },
+    '@vuepress/pwa': {
       serviceWorker: true,
       updatePopup: {
         message: "发现新内容",
         buttonText: "刷新"
       }
-    }]
+    },
+    '@vssue/vuepress-plugin-vssue': {
+      // 设置 `platform` 而不是 `api`
+      platform: 'github-v4',
+      // 其他的 Vssue 配置
+      owner: 'kongdepu',
+      repo: 'vue-press',
+      clientId: '17c922fc0f7d550a4811',
+      clientSecret: '0c47b996598eb76af958484968ee9295656d427a',
+    },
 
-  ],
+  },
   markdown: {
     lineNumbers: true,
   },
