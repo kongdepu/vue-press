@@ -1,1 +1,13 @@
+.next
+
+.nuxt
+dist
+
+.cache
+
+.vuepress/dist
+
 node_modules
+
+
+secret.js
