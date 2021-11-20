@@ -27,6 +27,12 @@ module.exports = {
     },
     '@vuepress/google-analytics': {
         'ga': secret.ga // UA-00000000-0
+    },
+    '@vuepress/medium-zoom': {
+        selector: 'img.zoom',
+    },
+    "vuepress-plugin-auto-sidebar":{
+        
     }
 
 }

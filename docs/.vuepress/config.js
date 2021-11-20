@@ -26,7 +26,7 @@ module.exports = {
     lastUpdated: '更新时间',
     // 导航栏链接
     nav: navConfig,
-    sidebar: sidebarConfig,
+    // sidebar: sidebarConfig,
     // displayAllHeaders: true // 默认值：false
   }
 }

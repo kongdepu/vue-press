@@ -7,5 +7,6 @@ module.exports = {
         '',
         'ES6',
         'quanxue',
+        'countUp',
     ]
 }
