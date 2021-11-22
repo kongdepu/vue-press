@@ -3,7 +3,7 @@ home: true
 heroImage: /img/hero.png
 heroText: 标题
 tagline: 副标题
-actionText: 起步 →
+actionText: 开始 →
 actionLink: /guide/
 features:
 - title: 简明优先

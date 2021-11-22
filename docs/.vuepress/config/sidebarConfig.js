@@ -3,6 +3,9 @@ module.exports = {
         '',
         'start',
     ],
+    'java':[
+        '',
+    ],
     '/start/': [
         '',
         'ES6',

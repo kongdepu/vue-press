@@ -1,7 +1,8 @@
 const headConfig = require('./config/headConfig')
 const pluginsConfig = require('./config/pluginsConfig')
-const navConfig = require('./config/navConfig')
 const sidebarConfig = require('./config/sidebarConfig')
+// const navConfig = require('./config/navConfig')
+const navConfig = require('./nav')
 
 
 module.exports = {
@@ -19,7 +20,7 @@ module.exports = {
     // 导航栏Logo
     logo: '/img/hero.png',
     // 自动显示侧栏
-    sidebar: 'auto',
+    // sidebar: 'auto',
     // 是否显示序号
     smoothScroll: true,
     // 更新时间

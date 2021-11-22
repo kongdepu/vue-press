@@ -32,7 +32,7 @@ module.exports = {
         selector: 'img.zoom',
     },
     "vuepress-plugin-auto-sidebar":{
-        
+        nav: true
     }
 
 }
